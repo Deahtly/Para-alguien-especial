@@ -1,0 +1,11 @@
+<!DOCTYPE html><html lang='es'><head><meta charset='UTF-8'><title>Feliz Cumpleaños</title><link rel='stylesheet' href='{{ url_for("static",filename="css/style.css") }}'></head><body>
+<header><h1>🎉 ¡Feliz Cumpleaños! 🎉</h1><p>Un día especial merece una página especial.</p></header>
+<section class='hero'><img src='{{ url_for("static",filename="img/portada.jpg") }}' onerror="this.style.display='none'"><div class='card'><h2>Mensaje</h2><p>Aquí escribe un mensaje de cumpleaños bonito.</p></div></section>
+<section class='gallery'>
+<div><img src='{{ url_for("static",filename="img/foto1.jpg") }}' onerror="this.style.display='none'"></div>
+<div><img src='{{ url_for("static",filename="img/foto2.jpg") }}' onerror="this.style.display='none'"></div>
+<div><img src='{{ url_for("static",filename="img/foto3.jpg") }}' onerror="this.style.display='none'"></div>
+</section>
+<section class='card'><h2>Otro mensaje</h2><p>Puedes cambiar este texto por cualquier dedicatoria.</p></section>
+<footer>💙 Hecho con cariño 💙</footer>
+</body></html>
